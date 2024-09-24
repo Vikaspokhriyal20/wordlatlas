@@ -36,7 +36,7 @@ const CountryDetails = () => {
                 <div className="countryinfo">
                   <p> Region :<span className='spanwhite'> {country.region}</span></p>
                   <p> Capital :<span className='spanwhite'> {country.capital} </span></p>
-                  <p> Top Lovel Domian :<span className='spanwhite'> {country.tld[0]} </span></p>
+                  <p> Top Level Domian :<span className='spanwhite'> {country.tld[0]} </span></p>
                   <p>Population : <span className='spanwhite'>{country.population}</span></p>
                   <p>Subregion : <span className='spanwhite'>{country.subregion}</span></p>
                   <p>Currencies : <span className='spanwhite'>

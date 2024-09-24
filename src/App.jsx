@@ -8,6 +8,7 @@ import Country from './pages/Country'
 import ErrorPage from './pages/ErrorPage'
 import AppLayout from './components/layout/AppLayout'
 import CountryDetails from './components/layout/CountryDetails'
+import Faq from './pages/Faq'
 
 
 
@@ -31,6 +32,11 @@ const App = () => {
         {
           path: 'contact',
           element: <Contact />,
+        },
+
+        {
+          path: 'faq',
+          element: <Faq/>,
         },
 
         {

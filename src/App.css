@@ -79,6 +79,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: all 1s ease;
 }
 
 /* navbar css  */
@@ -342,6 +344,80 @@ header {
     gap: 0.6rem;
   }
 }
+
+/* FAQ */
+
+.faq-section
+{
+  margin: 2rem auto;
+}
+
+.accordion-container
+{
+  margin: 1rem auto;
+}
+
+.accordion
+{
+  max-width: 500px;
+  margin: auto;
+  background-color: #2D2E30;
+  padding: 1rem 0.8rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.accordion-question
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-question p
+{
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.answer
+{
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #ffff;
+}
+
+
+.btn-faq
+{
+  background-color: #000000;
+  color:#9AA0A6;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid #9AA0A6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 4px;
+}
+
+@media screen and (max-width:600px) {
+  .accordion-question p
+  {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .answer
+  {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+
 
 /* country */
 

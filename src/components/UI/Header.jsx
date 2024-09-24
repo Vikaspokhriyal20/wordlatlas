@@ -30,6 +30,9 @@ const Header = () => {
                                 <NavLink to='/country'>Country</NavLink>
                             </li>
                             <li>
+                                <NavLink to='/Faq'>Faq</NavLink>
+                            </li>
+                            <li>
                                 <NavLink to='/contact'>Contact</NavLink>
                             </li>
                         </ul>
