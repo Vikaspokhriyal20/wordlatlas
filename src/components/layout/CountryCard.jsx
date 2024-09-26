@@ -4,7 +4,7 @@ const CountryCard = ({ country }) => {
 
     const { name, population, capital, region, flags } = country;
   return (
-      <li className="card bg-blue-box">
+      <li className="card">
           <div className="img-box">
               <img src={flags.png} alt={flags.alt} className="conutry-img" />
           </div>

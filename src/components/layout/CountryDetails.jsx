@@ -23,7 +23,7 @@ const CountryDetails = () => {
   return (
     <section>
       <div className='container'>
-        <div className='card bg-white-box m-2'>
+        <div className='card  m-2'>
           {country && (
             <div className="grid-two-col">
               <img

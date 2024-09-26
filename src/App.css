@@ -301,6 +301,15 @@ header {
   letter-spacing: 1px;
 }
 
+.contact-form input
+{
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+
+}
+
+
 .form-control::placeholder {
   color: #ffff;
 }
@@ -376,9 +385,8 @@ header {
 
 .accordion-question p
 {
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
-  text-transform: capitalize;
 }
 
 .answer
